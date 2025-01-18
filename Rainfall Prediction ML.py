@@ -18,7 +18,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('D:\Projects\Rainfall Prediction System\Rainfall.csv')
+df = pd.read_csv(r"C:\Users\zuhai\OneDrive\Documents\vscode\Projects\Rainfall Prediction System\Data\Rainfall.csv")
 print(df.head(5))
 print(df.shape)
 print(df.info())
